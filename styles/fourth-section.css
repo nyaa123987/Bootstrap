@@ -1,0 +1,37 @@
+.fourth-section {
+    position: relative;
+}
+
+.image2 {
+    width: 1300px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.position-fourth {
+    position: absolute;
+    bottom: 250px;
+    width: 100%;
+}
+
+.paragraph-div {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.download-button {
+    background-color: rgb(73, 73, 233);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.download-button:hover {
+    transform: scale(1.2);
+}
+

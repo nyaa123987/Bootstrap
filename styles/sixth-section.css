@@ -1,0 +1,57 @@
+.sixth-section {
+    background-color: blue;
+    width: 1300px;
+    height: 350px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.buttons-position {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+}
+
+.buttons-title {
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.buttons-display {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.click-button {
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 7px;
+    transition: all 0.5s;
+}
+
+.click-button:hover {
+    transform: scale(1.2);
+}
+
+.look-button {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.look-button:hover {
+    transform: scale(1.2);
+}

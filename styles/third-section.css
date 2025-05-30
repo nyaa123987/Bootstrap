@@ -1,0 +1,63 @@
+.third-section {
+    background-color: rgb(28, 28, 230);
+    color: white;
+    height: 370px;
+    width: 1300px;
+    position: relative;
+}
+
+.third-section-div {
+    display: flex;
+    flex: 1;
+}
+
+.position2 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.display2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.title {
+    color: rgb(245, 193, 96);
+}
+
+.sec-title {
+    font-size: 35px;
+    margin: 0;
+}
+
+.position3 {
+    position: absolute;
+    width: 100%;
+}
+
+.display3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+}
+
+.icon {
+    width: 120px;
+}
+
+.titles {
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.last-line {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
