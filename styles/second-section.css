@@ -1,9 +1,10 @@
 .second-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 4%;
+    margin-bottom: 5%;
 }
 
 .paragraph2 {
@@ -13,17 +14,14 @@
 }
 
 .paragraph3 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .button2 {
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 20px;
     border: none;
     border-radius: 6px;
     transition: all 0.5s;

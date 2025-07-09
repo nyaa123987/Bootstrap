@@ -1,30 +1,31 @@
 .third-section {
-    background-color: rgb(28, 28, 230);
+    width: 100%;
+    background-color: blue;
     color: white;
-    height: 370px;
-    width: 1300px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 1rem; 
+    box-sizing: border-box;
 }
 
 .third-section-div {
     display: flex;
-    flex: 1;
-}
-
-.position2 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-}
-
-.display2 {
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: center;  
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+    max-width: 1200px; 
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .title {
     color: rgb(245, 193, 96);
+    text-align: center;
 }
 
 .sec-title {
@@ -32,32 +33,85 @@
     margin: 0;
 }
 
-.position3 {
-    position: absolute;
+.third-section-div2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
     width: 100%;
+    max-width: 1200px;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
-.display3 {
+.my-div {
+    margin: 0 0.5%;
+    align-items: start;
+    flex: 1 1 250px; 
+    min-width: 220px; 
+    box-sizing: border-box;
+    padding: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 150px;
+    flex-direction: column;
+    text-align: left;
 }
 
 .icon {
-    width: 120px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 .titles {
     font-size: 23px;
     font-weight: bold;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .last-line {
     margin-top: 0;
-    margin-bottom: 70px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .sec-title {
+        font-size: 28px;
+    }
+    .titles {
+        font-size: 20px;
+    }
+    .third-section-div2 {
+        justify-content: center;
+    }
+    .my-div {
+        margin: 1rem 0;
+        min-width: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .icon {
+        width: 120px;
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sec-title {
+        font-size: 24px;
+    }
+    .titles {
+        font-size: 18px;
+    }
+    .third-section {
+        padding: 2% 0.5rem;
+    }
+    .my-div {
+        padding: 0.5rem;
+    }
+    .icon {
+        width: 100px;
+    }
 }

@@ -1,0 +1,13 @@
+body {
+    font-style: italic;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* || SMALL */
+@media screen and (max-width: 576px) {
+    body{
+        width: 100%;
+    }
+}

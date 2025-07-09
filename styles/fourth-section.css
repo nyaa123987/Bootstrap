@@ -1,17 +1,17 @@
 .fourth-section {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image2 {
-    width: 1300px;
-    height: 600px;
-    object-fit: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 .position-fourth {
     position: absolute;
-    bottom: 250px;
-    width: 100%;
 }
 
 .paragraph-div {
@@ -34,4 +34,3 @@
 .download-button:hover {
     transform: scale(1.2);
 }
-
